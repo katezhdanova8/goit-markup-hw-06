@@ -737,6 +737,12 @@ ul {
   display: none;
 }
 
+@media (min-resolution: 192dpi) {
+  .section--hero {
+    background-image: var(--hero-gradient), url(../images/hero@2x.jpg);
+  }
+}
+
 @media screen and (max-width: 1140px) {
   .section {
     padding: 96px 0;
